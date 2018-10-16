@@ -1,10 +1,10 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: "intro-page",
-    templateUrl: "./intro.html"
+    selector: "calculator-page",
+    templateUrl: "./calculator.html"
 })
-export class IntroPageComponent {
+export class CalculatorPageComponent {
     constructor() { }
 
     public buttonValues = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];

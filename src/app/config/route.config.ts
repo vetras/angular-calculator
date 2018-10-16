@@ -1,22 +1,22 @@
 import { Routes } from "@angular/router";
-import { IntroPageComponent } from "../pages/intro/intro.component";
+import { CalculatorPageComponent } from "../pages/calculator/calculator.component";
 
 export const ROUTE: Routes = [
     {
-        path: "intro",
-        component: IntroPageComponent
+        path: "calculator",
+        component: CalculatorPageComponent
     },
     {
         // redirect the home page to intro
         path: "",
-        redirectTo: "intro",
+        redirectTo: "calculator",
         pathMatch: "full"
     },
     {
         // redirect all unknown paths the home page to intro
         // could be a 404 page, if we wrote the html for it :)
         path: "**",
-        redirectTo: "intro",
+        redirectTo: "calculator",
         pathMatch: "full"
     }
 ];

@@ -5,14 +5,14 @@
         "name": "Launch Chrome",
         "type": "chrome",
         "request": "launch",
-        "url": "http://localhost:4200/intro",
+        "url": "http://localhost:4200/calculator",
         "webRoot": "${workspaceFolder}"
       },
       {
         "name": "Attach Chrome",
         "type": "chrome",
         "request": "attach",
-        "url": "http://localhost:4200/intro",
+        "url": "http://localhost:4200/calculator",
         "webRoot": "${workspaceFolder}"
       },
       {
